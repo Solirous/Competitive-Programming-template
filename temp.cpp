@@ -14,6 +14,9 @@ void no() { cout<<"NO\n"; }
 
 /*
 COMPILE SETTINGS 
+c++ -Wall -DSOLIROUS_PC=1
+
+
 */
 
 
