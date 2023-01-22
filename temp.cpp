@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define int long long
+#define ll long long
 #define FIO cin.tie(0)->sync_with_stdio(0)
 #define pb push_back
 #define FORN(i,n) for(int i=0;i<n;i++)
@@ -11,6 +12,17 @@ bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
 using namespace std;
+
+
+/*
+
+COMPILE SETTINGS 
+
+
+
+*/
+
+
 
 int t;
 void slv(){
