@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 #define int long long
 #define ll long long
 #define FIO cin.tie(0)->sync_with_stdio(0)
@@ -9,15 +10,10 @@ int lcm(ll a,ll b) { return a/gcd(a,b)*b; }
 bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
-using namespace std;
 
 
 /*
-
 COMPILE SETTINGS 
-
-
-
 */
 
 
@@ -29,13 +25,13 @@ void slv(){
 
 
 main(){
-    FIO
+    FIO;
     if(t==0){
     cin>>t;
     }
     while(t--){
         #ifdef SOLIROUS_PC
-        cout<<"Case #"<<t<<"\n";
+        cout<<"Case #"<<t+1<<"\n";
         #endif
         slv();
     }
